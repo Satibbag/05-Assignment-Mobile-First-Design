@@ -3,185 +3,363 @@
     padding: 0;
 }
 
-header {
-    background-color: #003B70;
-    color: #E1EFF6;
-    padding: 20px;
+@media (max-width: 600px) {
+    header {
+        background-color: #003B70;
+        color: #E1EFF6;
+        padding: 20px;
+    }
+
+    img {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    nav ul button {
+        width: 100%;
+        padding: 10px;
+        background-color: #1A374D;
+        color: #E1EFF6;
+    }
+
+    main {
+        box-sizing: border-box;
+        padding: 10px 25px;
+        background-color: #E1EFF6;
+    }
+
+    h3 {
+        color: #003B70;
+        text-align: center;
+    }
+
+    #ocean-zones ul {
+        margin-bottom: 20px;
+    }
+
+    #ocean-zones ul li {
+        margin-left: 40px;
+        padding: 5px;
+    }
+
+    #ocean-zones h4 {
+        color: #E1EFF6;
+    }
+
+    #sunlight-zone {
+        background-color: #4C86B6;
+        border-radius: 35px;
+        padding: 20px;
+        color: #E1EFF6;
+    }
+
+    #sunlight-zone ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    #twilight-zone {
+        background-color: #0A67A0;
+        border-radius: 35px;
+        padding: 20px;
+        color: #E1EFF6;
+    }
+
+    #twilight-zone ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    #midnight-zone {
+        background-color: #032E41;
+        border-radius: 35px;
+        padding: 20px;
+        color: #E1EFF6;
+    }
+
+    #midnight-zone ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .hr-top {
+        border: 1px solid #003B70;
+        margin-bottom: 20px;
+    }
+
+    .hr-bottom {
+        border: 1px solid #003B70;
+        margin-top: 20px;
+    }
+
+    #ocean-facts {
+        color: #003B70;
+    }
+
+    #ocean-facts ol {
+        margin-left: 8%;
+    }
+
+    #oceanographers {
+        text-align: center;
+    }
+
+    #oceanographers ul {
+        text-align: left;
+        margin-left: 8%;
+    }
+
+    #oceanographers ul li {
+        color: #003B70;
+    }
+
+    #oceanographers ul li a {
+        text-decoration: none;
+        color: #003B70;
+    }
+
+    #featured-species h4 {
+        font-size: 25px;
+        text-align: center;
+        color: #495057;
+        margin-bottom: 10px;
+    }
+
+    #featured-species {
+        color: #003B70;
+    }
+
+    #featured-species p {
+        font-size: 125%;
+    }
+
+    table, th, td {
+        border-style: solid;
+        border: 2px solid #003B70;
+        border-collapse: collapse;
+        width: fit-content;
+        text-align: center;
+    }
+
+    thead {
+        background-color: #007ACC;
+        color: #E1EFF6;
+    }
+
+    tbody {
+        background-color: #61AFFF;
+    }
+
+    footer {
+        text-align: center;
+        font-size: 75%;
+        background-color: #003B70;
+        color: #E1EFF6;
+    }
 }
 
-header h1, header h2 {
-    text-align: center;
-}
+@media (min-width: 1024px) {
+    header {
+        background-color: #003B70;
+        color: #E1EFF6;
+        padding: 20px;
+    }
 
-.container {
-    display: flex;
-    width: 100%;
-}
+    header h1, header h2 {
+        text-align: center;
+    }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
+    .container {
+        display: flex;
+        width: 100%;
+    }
 
-nav {
-    float: left;
-    box-sizing: border-box;
-    width: 22%;
-    padding: 15px;
-    background-color: #95B9C7;
-    flex-direction: column;
-    justify-content: center;
-}
-nav ul {
-    list-style-type: none;
-    text-align: center;
-}
-nav ul button {
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
-    background-color: #1A374D;
-    color: #E1EFF6;
-    border: none;
-}
-nav ul button:hover {
-    background-color: #003B70;
-    color: #E1EFF6;
-}
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
 
-main {
-    float: left;
-    box-sizing: border-box;
-    width: 78%;
-    padding: 50px;
-    background-color: #E1EFF6;
-}
-h3 {
-    font-size: 200%;
-    color: #003B70;
-}
+    nav {
+        float: left;
+        box-sizing: border-box;
+        width: 22%;
+        padding: 15px;
+        background-color: #95B9C7;
+        flex-direction: column;
+        justify-content: center;
+    }
 
-#ocean-zones ul {
-    margin-bottom: 20px;
-}
-#ocean-zones ul li {
-    margin-left: 40px;
-    padding: 5px;
-}
-#ocean-zones h4 {
-    color: #E1EFF6;
-}
+    nav ul {
+        list-style-type: none;
+        text-align: center;
+    }
 
-#sunlight-zone {
-    background-color: #4C86B6;
-    border-radius: 35px;
-    padding: 20px;
-    color: #E1EFF6;
-}
-#sunlight-zone ul {
-    margin: 0;
-    padding: 0;
-}
+    nav ul button {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: #1A374D;
+        color: #E1EFF6;
+        border: none;
+    }
 
-#twilight-zone {
-    background-color: #0A67A0;
-    border-radius: 35px;
-    padding: 20px;
-    color: #E1EFF6;
-}
-#twilight-zone ul {
-    margin: 0;
-    padding: 0;
-}
+    nav ul button:hover {
+        background-color: #003B70;
+        color: #E1EFF6;
+    }
 
-#midnight-zone {
-    background-color: #032E41;
-    border-radius: 35px;
-    padding: 20px;
-    color: #E1EFF6;
-}
-#midnight-zone ul {
-    margin: 0;
-    padding: 0;
-}
+    main {
+        float: left;
+        box-sizing: border-box;
+        width: 78%;
+        padding: 50px;
+        background-color: #E1EFF6;
+    }
 
-.hr-top {
-    border: 1px solid #003B70;
-    margin-bottom: 20px;
-}
-.hr-bottom {
-    border: 1px solid #003B70;
-    margin-top: 20px;
-}
+    h3 {
+        font-size: 200%;
+        color: #003B70;
+    }
 
-#ocean-facts {
-    margin-left: 50px;
-    color: #003B70;
-}
-#ocean-facts ol {
-    margin-left: 45px;
-    font-size: 22px;
-}
+    #ocean-zones ul {
+        margin-bottom: 20px;
+    }
 
-#oceanographers {
-    text-align: center;
-}
-#oceanographers ul {
-    text-align: left;
-    margin-left: 100px;
-}
-#oceanographers ul li {
-    font-size: 18px;
-    color: #003B70;
-}
-#oceanographers ul li a {
-    text-decoration: none;
-    color: #003B70;
-}
-#oceanographers ul li a:hover {
-    color: #007ACC;
-}
+    #ocean-zones ul li {
+        margin-left: 40px;
+        padding: 5px;
+    }
 
-#featured-species h4 {
-    font-size: 25px;
-    text-align: center;
-    color: #495057;
-    margin-bottom: 10px;
-}
-#featured-species {
-    color: #003B70;
-}
-#featured-species img {
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-#featured-species p {
-    font-size: 150%;
-}
+    #ocean-zones h4 {
+        color: #E1EFF6;
+    }
 
-table, th, td {
-    border-style: solid;
-    border: 2px solid #003B70;
-    border-collapse: collapse;
-    width: 1000px;
-    text-align: center;
-}
+    #sunlight-zone {
+        background-color: #4C86B6;
+        border-radius: 35px;
+        padding: 20px;
+        color: #E1EFF6;
+    }
 
-thead {
-    font-size: 1.25rem;
-    background-color: #007ACC;
-    color: #E1EFF6;
-}
-tbody {
-    background-color: #61AFFF;
-}
+    #sunlight-zone ul {
+        margin: 0;
+        padding: 0;
+    }
 
-footer {
-    text-align: center;
-    font-size: 75%;
-    background-color: #003B70;
-    color: #E1EFF6;
+    #twilight-zone {
+        background-color: #0A67A0;
+        border-radius: 35px;
+        padding: 20px;
+        color: #E1EFF6;
+    }
+
+    #twilight-zone ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    #midnight-zone {
+        background-color: #032E41;
+        border-radius: 35px;
+        padding: 20px;
+        color: #E1EFF6;
+    }
+
+    #midnight-zone ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .hr-top {
+        border: 1px solid #003B70;
+        margin-bottom: 20px;
+    }
+
+    .hr-bottom {
+        border: 1px solid #003B70;
+        margin-top: 20px;
+    }
+
+    #ocean-facts {
+        margin-left: 50px;
+        color: #003B70;
+    }
+
+    #ocean-facts ol {
+        margin-left: 45px;
+        font-size: 22px;
+    }
+
+    #oceanographers {
+        text-align: center;
+    }
+
+    #oceanographers ul {
+        text-align: left;
+        margin-left: 100px;
+    }
+
+    #oceanographers ul li {
+        font-size: 18px;
+        color: #003B70;
+    }
+
+    #oceanographers ul li a {
+        text-decoration: none;
+        color: #003B70;
+    }
+
+    #oceanographers ul li a:hover {
+        color: #007ACC;
+    }
+
+    #featured-species h4 {
+        font-size: 25px;
+        text-align: center;
+        color: #495057;
+        margin-bottom: 10px;
+    }
+
+    #featured-species {
+        color: #003B70;
+    }
+
+    #featured-species img {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #featured-species p {
+        font-size: 150%;
+    }
+
+    table, th, td {
+        border-style: solid;
+        border: 2px solid #003B70;
+        border-collapse: collapse;
+        width: 1000px;
+        text-align: center;
+    }
+
+    thead {
+        font-size: 1.25rem;
+        background-color: #007ACC;
+        color: #E1EFF6;
+    }
+
+    tbody {
+        background-color: #61AFFF;
+    }
+
+    footer {
+        text-align: center;
+        font-size: 75%;
+        background-color: #003B70;
+        color: #E1EFF6;
+    }
 }
