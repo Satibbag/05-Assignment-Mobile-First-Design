@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean Exploration</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        ol a {
+            color: #003B70; /* Deep Ocean Blue */
+            color: #007ACC; /* Clear Sky Blue */
+            color: #61AFFF; /* Soft Wave Blue */
+            color: #95B9C7; /* Foggy Harbor Blue */
+            color: #1A374D; /* Sailor's Navy */
+            color: #E1EFF6; /* Frosty Blue */
+            
+            color: #F7F6F2; /* Pearl Foam White */
+            color: #FFD6C0; /* Seashell Pink */
+            color: #F2E9D0; /* Sandy Beige */
+            color: #495057; /* Maritime Gray */
+            color: #F96714; /* Coral Reef Orange */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Ocean Exploration Page!</h1>
+        <h2>Discover the Wonders Beneath the Surface</h2>
+        <br>
+        <p>Explore the vibrant and mysterious world that lies beneath the ocean's surface. Our oceans cover more than 70% of the Earth's surface and are home to an incredible diversity of life. From coral reefs teeming with fish to deep-sea trenches that hold secrets yet to be discovered, the ocean is a world full of wonder!</p>
+    </header>
+    <div class="container clearfix">
+        <nav>
+            <ul>
+                <li><a href="#ocean-zones"><button>Zones of the Ocean: Interactive Map</button></a></li>
+                <li><a href="#ocean-facts"><button>Ocean Facts</button></a></li>
+                <li><a href="#oceanographers"><button>Famous Oceanographers</button></a></li>
+                <li><a href="#featured-species"><button>Featured Ocean Species</button></a></li>
+                <li><a href="#survival-guide"><button>Coral Reef Survival Guide</button></a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="ocean-zones">
+                <h3>Zones of the Ocean: Interactive Map</h3>
+                <br>
+                
+                <img src="ocean-zones-image.jpg" usemap="#image-map" alt="Ocean Zones">
+                <map name="image-map">
+                    <area href="#sunlight-zone" coords="2,1,638,39" shape="rect" alt="Sunlight Zone">
+                    <area href="#twilight-zone" coords="6,40,45,109,638,107,637,39" shape="poly" alt="Twilight Zone">
+                    <area href="#midnight-zone" coords="46,108,41,161,51,187,100,226,135,248,268,301,288,328,322,337,438,354,490,354,572,327,618,302,639,284,638,107" shape="poly" alt="Midnight Zone">
+                </map>
+                <br>
+                <br>
+                <div id="sunlight-zone">
+                    <h4>Sunlight Zone (Epipelagic Zone)</h4>
+                    <ul>
+                        <li><strong>Depth:</strong> 0 - 200 meters</li>
+                        <li><strong>Description:</strong> The uppermost layer of the ocean where sunlight penetrates. This zone is full of life, including dolphins, sharks, and colorful fish that live among coral reefs.</li>
+                    </ul>
+                </div>
+                <br>
+                <div id="twilight-zone">
+                    <h4>Twilight Zone (Mesopelagic Zone)</h4>
+                    <ul>
+                        <li><strong>Depth:</strong> 200 - 1,000 meters</li>
+                        <li><strong>Description:</strong> Below the Sunlight Zone, light begins to fade. This area is home to fascinating creatures like jellyfish and squids that can produce their own light, called bioluminescence.</li>
+                    </ul>
+                </div>
+                <br>
+                <div id="midnight-zone">
+                    <h4>Midnight Zone (Bathypelagic Zone)</h4>
+                    <ul>
+                        <li><strong>Depth:</strong> 1,000 - 4,000 meters</li>
+                        <li><strong>Description:</strong> No sunlight reaches here. Creatures in this zone must adapt to total darkness. The eerie glow of the anglerfish and giant squids are some of the rare inhabitants of this zone.</li>
+                    </ul>
+                </div>
+            </section>
+            <br>
+            <br>
+            <hr class="hr-top">
+            <section id="ocean-facts">
+                <h3>Ocean Facts</h3>
+                <ol>
+                    <li>More than 80% of the ocean remains unexplored.</li>
+                    <li>The longest mountain range on Earth, the Mid-Ocean Ridge, is underwater. It stretches over 40,000 miles!</li>
+                    <li>More historical artifacts are underwater than in all museums combined.</li>
+                    <li>The largest waterfall on Earth, the Denmark Strait Cataract, is found beneath the ocean.</li>
+                    <li>Jellyfish have existed for over 500 million years!</li>
+                </ol>
+            </section>
+            <hr class="hr-bottom">
+            <br>
+            <br>
+            <section id="oceanographers">
+                <h3>Famous Oceanographers</h3>
+                <ul>
+                    <li><strong><a href="https://en.wikipedia.org/wiki/Jacques_Cousteau">Jacques Cousteau:</a></strong> A pioneer in marine exploration, Cousteau co-developed the Aqua-Lung, enabling underwater diving.</li>
+                    <li><strong><a href="https://en.wikipedia.org/wiki/Sylvia_Earle">Sylvia Earle:</a></strong> Known as "Her Deepness," she is a marine biologist and ocean advocate who has logged over 7,000 hours underwater.</li>
+                </ul>
+            </section>
+            <hr class="hr-bottom">
+            <br>
+            <br>
+            <section id="featured-species">
+                <h3>Featured Ocean Species</h3>
+                <br>
+                <h4>The Majestic <em>Manta Ray</em></h4>
+                <img src="manta-ray.jpg" alt="Manta Ray">
+                <br>
+                <p>The manta ray glides through the ocean with graceful movements, using its large, wing-like fins. They can grow to be up to 7 meters across and are often found near coral reefs or feeding on plankton in open waters.</p>
+            </section>
+            <br>
+            <br>
+            <section id="survival-guide">
+                <h3>Coral Reef Survival Guide</h3>
+                <br>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Species</th>
+                            <th>Habitat</th>
+                            <th>Threats</th>
+                            <th>Conservation Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Clownfish</td>
+                            <td>Shallow coral reefs</td>
+                            <td>Pollution, climate change</td>
+                            <td>Near threatened</td>
+                        </tr>
+                        <tr>
+                            <td>Hawksbill Turtle</td>
+                            <td>Tropical Coral Reefs</td>
+                            <td>Poaching, habitat loss</td>
+                            <td>Critically Endangered</td>
+                        </tr>
+                        <tr>
+                            <td>Great White Shark</td>
+                            <td>Coastal regions</td>
+                            <td>Overfishing</td>
+                            <td>Vulnerable</td>
+                        </tr>
+                        <tr>
+                            <td>Blue Tang</td>
+                            <td>Coral reefs, lagoons</td>
+                            <td>Habitat Destruction</td>
+                            <td>Least Concern</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p>Note: All text on this website was generated by ChatGPT.</p>
+    </footer>
+</body>
+</html>
